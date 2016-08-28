@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>New Tab</title>
+    <!-- Load Stylesheets -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href='css/spectrum.css' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:800' rel=
+    'stylesheet' type='text/css'>
+    
+    <!-- Load scripts -->
+    <script src="JS/jquery-3.1.0.js">
+    </script>
+    <script src="JS/background.js">
+    </script>
+    <script src="JS/dropdown.js">
+    </script>
+    <script src="JS/clock.js">
+    </script>
+    <script src="JS/spectrum.js">
+    </script>
+    <script src="JS/clickHandlers.js">
+    </script>
+    <script src="JS/links.js">
+    </script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div id="addMenu">
+            <div id="addForm">
+                <h1>Add shortcut</h1>
+
+                <hr>
+                <br>
+                <label for="nameBox">Name:<br>
+                <input class="inputLine" id="nameBox" name="name"><br>
+                <br></label> <label for="colorButton">Choose Color:</label><br>
+                <button id="colorButton" type="button"></button><br>
+                <br>
+                <label for="addressBox">Address:<br>
+                <input class="inputLine" id="addressBox" name="address"><br>
+                <br>
+                <br></label> <button id="saveButton" type=
+                "button">Save</button> <button id="closeAddButton" type=
+                "button">Close</button>
+            </div>
+        </div>
+
+
+        <div id="removeMenu">
+            <div id="removeForm">
+                <h1>Remove shortcut</h1>
+
+                <hr>
+                <br>
+                <select id="removeSelector">
+                    </select><br>
+                <button id="removeButton" type="button">Remove</button>
+                <button id="closeRemoveButton" type="button">Close</button>
+            </div>
+        </div>
+
+
+        <div class="left1">
+            <div id="clock">
+            </div>
+
+
+            <p id="credits">Picture by <a href=
+            "https://unsplash.com/">unsplash</a></p>
+        </div>
+
+
+        <div class="left2">
+            <div class="divTable" id="tableBody">
+                <div class="divTableBody">
+                    <div class="divTableRow">
+                        <div class="divTableCell" id="linkDiv1">
+                        </div>
+
+
+                        <div class="divTableCell" id="linkDiv2">
+                        </div>
+
+
+                        <div class="divTableCell" id="linkDiv3">
+                        </div>
+                    </div>
+
+
+                    <div class="divTableRow">
+                        <div class="divTableCell" id="linkDiv4">
+                        </div>
+
+
+                        <div class="divTableCell" id="linkDiv5">
+                        </div>
+
+
+                        <div class="divTableCell" id="linkDiv6">
+                        </div>
+                    </div>
+
+
+                    <div class="divTableRow">
+                        <div class="divTableCell" id="linkDiv7">
+                        </div>
+
+
+                        <div class="divTableCell" id="linkDiv8">
+                        </div>
+
+
+                        <div class="divTableCell" id="linkDiv9">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="left3">
+            <a href="#" id="showAddButton">+</a> <br/>
+            <a href="#" id="showRemoveButton">-</a>
+        </div>
+    </div>
+</body>
+</html>

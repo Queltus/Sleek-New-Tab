@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "Sleek New Tab",
+
+    "description": "This Extension replaces your New Tab Page with a modern and minimalistic looking one.",
+    "version": "0.1",    
+    "permissions": [
+          "storage"
+    ],
+    "chrome_url_overrides" : {
+        "newtab": "index.html"
+    }
+}
