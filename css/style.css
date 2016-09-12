@@ -67,15 +67,21 @@ body {
     opacity: .8;
 }
 
-.left3 a:link,a:visited {
-    color: #f5f5f5;
-    background-color: none;
-    text-decoration: none;
+.left3 img {
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    margin-right: 0.5vw;
+    border-radius: 50%;
+    width: 3vw;
+    opacity: .6;
+    transition: opacity .25s ease-in-out;
 }
 
-.left3 a:hover {
-    color: #00F;
+.left3 img:hover {
+    opacity: 1;
     text-decoration: none;
+    cursor: pointer;
 }
 
 #addMenu {
@@ -138,6 +144,7 @@ body {
 #colorButton {
     width: 30px;
     height: 30px;
+    background-color: white;
 }
 
 #addForm {

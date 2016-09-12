@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     //Set the add menu color button as colorpicker
     $("#colorButton").spectrum({
-        color: "#f00",
+        color: "white",
         showButtons: false,
         move: function(color) {
             $("#colorButton").css("background-color", color
