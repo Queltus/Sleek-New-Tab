@@ -72,8 +72,9 @@ function addLink() {
     var name = $("#nameBox").val();
     var color = $("#colorButton").spectrum("get").toHexString();
     var address = $("#addressBox").val();
-
-    $("#nameBox").val()
+    if(!isValidURL(address)) {
+        return;
+    }
 
     var getArray = ["name", "address", "color"];
     chrome.storage.sync.get(getArray, function(retVal) {
