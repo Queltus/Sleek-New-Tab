@@ -38,7 +38,7 @@ function isValidURL(str) {
         "$", "i"
 );
 if(!pattern.test(str)) {
-    alert("Please enter a valid URL in the following format:\nhttps://www.website.com");
+    alert("Please enter a valid URL in the following format:\nhttps://www.website.com or\nhttps://website.com");
     return false;
 } else {
     return true;

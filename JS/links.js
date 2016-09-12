@@ -94,8 +94,13 @@ function addLink() {
             });
         } else {
             alert("You have already set 9 links. Please remove one before trying to add another one.");
+            return;
         }
     });
+    
+    //Clear the entries
+    $("#nameBox").val("");
+    $("#addressBox").val("");
 }
 
 function removeLink() {
